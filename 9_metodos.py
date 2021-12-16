@@ -34,3 +34,5 @@ print(nombre)
 len(nombre) #con este parametro podemos saber cuantas letaras tiene el string
 
 nombre[2] #esto se llama indice y es la forma de acceder a los caracteres de cada string.
+
+#lista de metodos a examinar y aprender como se usan https://www.w3schools.com/python/python_ref_string.asp

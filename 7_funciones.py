@@ -24,4 +24,8 @@ elif opcion == 3:
 else:
     print("escribe una opcion correcta") """
 
+# built in funciones que ya vienen con python como lo son print() float() y otras https://docs.python.org/3/library/functions.html
+ 
+
+
 
