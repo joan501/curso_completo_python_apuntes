@@ -10,3 +10,5 @@ nombre[3:] #aqui inicio desde el indice 3 y lo dejo hasta el final , como ven no
 nombre[2:3:2] # en este ejmplo pongo el primer nuemero que es donde uqiero empezar luego el donde quiero terminar y el tercer numero en saltos de 2 letras
 #lo que quiere decir que cada dos letras estaria trayendo las letras hasta finalizar el texto que quiero sacar
 nombre[::-1] #en este ejemplo le estoy diciendo a python que quiero ir desde el iicio al fin pero en pasos negativos, lo que me traera el nombre completo pero al reves 
+nombre[::]# aqui puedes ir desde el inicio hasta el final de uo en uno
+nombre[1::3]#aqi podemos ir desde el numero uno hasta el final en pasos de 3
