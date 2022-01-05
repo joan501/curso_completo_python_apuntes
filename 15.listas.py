@@ -3,6 +3,10 @@
 #['perro',1,'ojo',34,False]"
 
 lista = ['perro',1,5,9,'socio',3,4]
+lista[4] = 5 # forma de cambiar un elemento de una lista por otro en este ejemplo cambiamos el elemento numero 4 que seria 'socio' por el numero 5
+lista[:3]= ['a','b','c']#puedo modificar elementos usando slicing como aparece aqui cambiaria hasta el elemento 3 por los siguientes a,b,c
+lista[:3]=[] #en esta forma estamos eliminando los elementos del 0 al 2 simplemente colocando una lista vacia
+lista = []#aqui estariamos eliminando todo lo que esta dentro de la lista
 #tambien podemos agregar elementos a la lista
 #metodos para manipular 
 lista.append(4)#metodo apend agrega un elemento a la lista
@@ -45,4 +49,13 @@ lista.reverse() #metodo .reverse cambia el orden de atras para adelante de la li
 lista.reverse() #metodo .reverse cambia el orden de atras para adelante de la lista 
 lista.sort()# este metodo ordena los elementos de la lista pero solo puede ordenar elementos del mismo tipo
             #podemos utilizar el argumento reverse=true para que lo ordene al reves lista.sort(reverse=True)
+
+""" listas anidadas """
+a =[1,2,3]
+b =[4,5,6]
+c =[7,8,9]
+r =[a,b,c]# en este ejemplo de listas anidadas se imprimien las 3 listas asi = r:[[1,2,3],[4,5,6][7,8,9]]
+#para ingresar a cada lista se hace como si fuera un elemento de slicin ejemplo r[0] estaria entrando a la lista 'a' o r[-1] estaria entrando a la ultima lista
+#ahora para ingresar a un elemento de cada una lista especifica seria r[0][0] estariamos entrando a  la lista a elemento primero
+
             
